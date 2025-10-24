@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pomeranian – Overview</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="section1.html">Section 1</a>
+    <a href="section2.html">Section 2</a>
+    <a href="section3.html">Section 3</a>
+    <a href="see_also.html">See Also</a>
+    <a href="references.html">References</a>
+    <a href="javascript:void(0);" class="icon" tabindex="0" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <h1>Pomeranian</h1>
+    <p>
+      The <strong>Pomeranian</strong> is a small, fluffy breed of dog known for its lively personality and beautiful double coat.
+      Despite their tiny size, Pomeranians are confident, alert, and often described as having a
+      <em>“big dog attitude.”</em> They are one of the most popular companion dogs in the world due to their
+      intelligence, charm, and loyalty.
+    </p>
+
+    <!-- Slideshow -->
+    <section class="slideshow-wrap" aria-label="Pomeranian photo slideshow">
+        <div class="slideshow-container" id="pomSlider">
+  
+        <!-- Slide 1 -->
+        <div class="mySlides fade" aria-label="Slide 1">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/pom6.jpg" alt="Pomeranian puppies">
+        </div>
+  
+        <!-- Slide 2 -->
+        <div class="mySlides fade" aria-label="Slide 3">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/pom4.jpg" alt="White Pomeranian">
+        </div>
+    
+        <!-- Slide 3 -->
+        <div class="mySlides fade" aria-label="Slide 3">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/pom3.JPG" alt="Pomeranian">
+        </div>
+    
+        <!-- Controls -->
+        <button class="prev" aria-label="Previous slide" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" aria-label="Next slide" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+  
+        <!-- Dots -->
+        <div class="dots" role="tablist" aria-label="Slide selectors">
+            <span class="dot" role="tab" aria-selected="true" onclick="currentSlide(1)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="currentSlide(2)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+  
+
+    <h2>Appearance</h2>
+    <div class="table-wrap">
+      <table class="summary">
+        <tr><th>Height</th><td>6–7 inches</td></tr>
+        <tr><th>Weight</th><td>3–7 pounds</td></tr>
+        <tr><th>Coat</th><td>Double coat; dense undercoat</td></tr>
+        <tr><th>Colors</th><td>White, cream, black, brown, reddish brown</td></tr>
+      </table>
+    </div>
+
+    <h2>FAQ</h2>
+    <button class="accordion" aria-expanded="false">Where did Pomeranians originate?</button>
+    <div class="panel">
+      <p>Pomerania (modern Germany/Poland), descended from Spitz-type sled dogs.</p>
+    </div>
+
+    <button class="accordion" aria-expanded="false">Common health concerns?</button>
+    <div class="panel">
+      <ul>
+        <li>Luxating patella</li>
+        <li>Tracheal collapse</li>
+        <li>Dental disease</li>
+      </ul>
+    </div>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+  </div>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

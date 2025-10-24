@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pomeranian – Appearance</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="section1.html">Section 1</a>
+    <a class="active" href="section2.html">Section 2</a>
+    <a href="section3.html">Section 3</a>
+    <a href="see_also.html">See Also</a>
+    <a href="references.html">References</a>
+    <a href="javascript:void(0);" class="icon" tabindex="0" aria-label="Toggle navigation"><i class="fa fa-bars"></i></a>
+  </div>
+
+  <div class="content">
+    <h1>Appearance</h1>
+    <p>
+      Pomeranians are categorized as small dogs. Their height ranges from <strong>6–7 inches</strong>,
+      and they typically weigh <strong>3–7 pounds</strong>.
+      Common colors include <em>white, cream, black, brown,</em> and <em>reddish brown.</em>
+    </p>
+
+    <div class="table-wrap">
+      <table class="summary">
+        <tr><th>Height</th><td>6–7 inches</td></tr>
+        <tr><th>Weight</th><td>3–7 pounds</td></tr>
+        <tr><th>Coat</th><td>Dense double coat, plumed tail</td></tr>
+        <tr><th>Colors</th><td>White, cream, black, brown, reddish brown</td></tr>
+      </table>
+    </div>
+
+    <section class="slideshow-wrap" aria-label="Pomeranian photo slideshow">
+        <div class="slideshow-container" id="pomSlider">
+  
+        <!-- Slide 1 -->
+        <div class="mySlides fade" aria-label="Slide 1">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/pom6.jpg" alt="Pomeranian puppies">
+        </div>
+  
+        <!-- Slide 2 -->
+        <div class="mySlides fade" aria-label="Slide 3">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/pom4.jpg" alt="White Pomeranian">
+        </div>
+    
+        <!-- Slide 3 -->
+        <div class="mySlides fade" aria-label="Slide 3">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/pom3.JPG" alt="Pomeranian">
+        </div>
+    
+        <!-- Controls -->
+        <button class="prev" aria-label="Previous slide" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" aria-label="Next slide" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+  
+        <!-- Dots -->
+        <div class="dots" role="tablist" aria-label="Slide selectors">
+            <span class="dot" role="tab" aria-selected="true" onclick="currentSlide(1)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="currentSlide(2)"></span>
+            <span class="dot" role="tab" aria-selected="false" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
